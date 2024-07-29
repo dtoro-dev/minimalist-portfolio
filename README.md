@@ -1,6 +1,8 @@
 
 <div align="center">
-  <img src="./src/assets/logo-2.2.webp" height="90px" width="auto" style="background-color: #f2f1eb; border-radius: 10px; border: 3px solid #e8c538" /> 
+  <a href="https://dtoro-dev-portfolio.netlify.app/">
+    <img src="./src/assets/logo-2.2.webp" height="90px" width="auto" style="background-color: #f2f1eb; border-radius: 10px; border: 3px solid #e8c538" />
+  </a> 
   <h2>
     <em>Résumé</em> minimalista maquetado para web y pdf
   </h2>
@@ -51,6 +53,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/dtoro-dev/minimalist-portfolio)
 ![GitHub forks](https://img.shields.io/github/forks/dtoro-dev/minimalist-portfolio)
 ![GitHub PRs](https://img.shields.io/github/issues-pr/dtoro-dev/minimalist-portfolio)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/519c14e6-30ae-4851-9c75-107b2c52a409/deploy-status)](https://app.netlify.com/sites/dtoro-dev-portfolio/deploys)
 
 </div>
 
