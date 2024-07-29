@@ -100,8 +100,8 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "ICEL",
-      "url": "https://icel.cl",
+      "institution": "ICEL CFT",
+      "url": "https://www.linkedin.com/company/instituto-icel/?originalSubdomain=cl",
       "area": "Análisis de Sistemas",
       "studyType": "Técnico",
       "startDate": "2015-04",
@@ -150,26 +150,166 @@
   "publications": [],
   "skills": [
     {
-      "name": "Desarrollo Web",
-      "level": "Master",
+      "name": "JavaScript",
+      "level": "Avanzado",
       "keywords": [
-        "JavaScript",
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
         "Node JS",
-        "React JS",
-        "React Native",
-        "Nest JS",
-        "Angular JS",
-        "PHP",
-        "Java",
-        "Python",
-        "CSS",
-        "SQL",
-        "JQUERY",
-        ".NET",
+        "React JS"
+      ]
+    },
+    {
+      "name": "Node JS",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend",
         "Microservicios",
-        "AWS",
-        "Linux Prompt",
-        "Git"
+        "Express",
+        "Nest JS"
+      ]
+    },
+    {
+      "name": "React JS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Redux",
+        "Material UI",
+        "Vite.js",
+        "React Native",
+        "React Router"
+      ]
+    },
+    {
+      "name": "React Native",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Móvil",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Nest JS",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend",
+        "Microservicios",
+        "Node JS",
+        "Express",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Angular JS",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "Laravel",
+        "Symfony",
+        "CodeIgniter",
+        "WordPress"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Medio",
+      "keywords": [
+        "Backend",
+        "Aplicaciones Empresariales",
+        "Spring Boot",
+        "JSP"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Básico",
+      "keywords": [
+        "Backend",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Estilos",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "Consultas",
+        "Backend",
+        "ETL"
+      ]
+    },
+    {
+      "name": "JQUERY",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript",
+        "AJAX"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "Aplicaciones Empresariales",
+        "C#"
+      ]
+    },
+    {
+      "name": "Microservicios",
+      "level": "Avanzado",
+      "keywords": [
+        "Arquitectura",
+        "Backend",
+        "Node JS",
+        "Nest JS",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Básico",
+      "keywords": [
+        "Nube",
+        "DevOps",
+        "Despliegues"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "GitHub",
+        "GitLab",
+        "Bitbucket",
+        "GitFlow"
       ]
     }
   ],
@@ -209,5 +349,227 @@
     }
   ],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "Translator Cohere IA",
+      "isActive": true,
+      "description": "Traductor que utiliza la API de Cohere IA para lograr traducciones sin necesidad de un diccionario",
+      "url": "https://github.com/dtoro-dev/translator-cohere-ia",
+      "img": "",
+      "highlight": [
+        "TypeScript",
+        "API",
+        "Translation",
+        "Inteligencia Artificial"
+      ]
+    },
+    {
+      "name": "Chat Node Socket.IO",
+      "isActive": true,
+      "description": "Chat creado con node y socket.io",
+      "url": "https://github.com/dtoro-dev/chat-node-socketio",
+      "img": "",
+      "highlight": [
+        "Node.js",
+        "Socket.IO",
+        "Real-time Chat"
+      ]
+    },
+    {
+      "name": "The Adventure",
+      "isActive": true,
+      "description": "Juego creado con Godot 4",
+      "url": "https://github.com/dtoro-dev/the_adventure",
+      "img": "",
+      "highlight": [
+        "GDScript",
+        "Game Development",
+        "Godot",
+        "Game Maker"
+      ]
+    },
+    {
+      "name": "Tetris",
+      "isActive": true,
+      "description": "Juego del clásico tetris creado con React y TypeScript",
+      "url": "https://github.com/dtoro-dev/tetris",
+      "img": "",
+      "highlight": [
+        "TypeScript",
+        "Game Development",
+        "Arcade"
+      ]
+    },
+    {
+      "name": "Shopi E-Commerce",
+      "isActive": true,
+      "description": "This is an e-commerce created in a Platzi course as part of a project for approval.",
+      "url": "https://github.com/dtoro-dev/shopi-ecommerce",
+      "img": "",
+      "highlight": [
+        "JavaScript",
+        "E-Commerce",
+        "Platzi",
+        "Curso"
+      ]
+    },
+    {
+      "name": "Asincronismo JS",
+      "isActive": true,
+      "description": "El asincronismo en JavaScript es una técnica de programación que permite realizar operaciones sin bloquear la ejecución del programa. En este repositorio se encuentran ejemplos de cómo trabajar con asincronismo en JavaScript, utilizando callbacks, promesas, async/await y la API Fetch.",
+      "url": "https://github.com/dtoro-dev/asincronismo-js-platzi",
+      "img": "",
+      "highlight": [
+        "Callbacks",
+        "Promesas",
+        "Async/Await",
+        "Fetch API"
+      ]
+    },
+    {
+      "name": "Portfolio DToroDev front",
+      "isActive": true,
+      "description": "Primer portafolio personal con material ui y react",
+      "url": "https://github.com/dtoro-dev/portfolio-dtoro-front",
+      "img": "",
+      "highlight": [
+        "React",
+        "Material UI",
+        "Portfolio"
+      ]
+    },
+    {
+      "name": "Astrofy Music Player",
+      "isActive": true,
+      "description": "Astrofy es el un clon de Spotify. Esta construido con Astro fusionando componentes Astro, React (JSX & TSX) y Svelte, para el diseño se utilizo TailwindCSS y para el manejo del estado con Zustand, el cual es totalmente agnóstico entre los tres framework utilizados, permitiendo la persistencia y compatibilidad del estado en todos los componentes.",
+      "url": "https://github.com/dtoro-dev/astrofy-music-player",
+      "img": "",
+      "highlight": [
+        "Astro",
+        "React",
+        "Svelte",
+        "TailwindCSS",
+        "Zustand"
+      ]
+    },
+    {
+      "name": "JS 100",
+      "isActive": true,
+      "description": "Curso con Midudev - 100 proyectos de JavaScript",
+      "url": "https://github.com/dtoro-dev/js-100",
+      "img": "",
+      "highlight": [
+        "JavaScript",
+        "Projects",
+        "Midudev"
+      ]
+    },
+    {
+      "name": "Async Landing Airsoft",
+      "isActive": true,
+      "description": "Pagina landing de aisoft realizada en un curso de Platzi",
+      "url": "https://github.com/dtoro-dev/async-landing-airsoft",
+      "img": "",
+      "highlight": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Hyperblog",
+      "isActive": true,
+      "description": "Un blog increible para el curso Git y Github de Platzi",
+      "url": "https://github.com/dtoro-dev/hyperblog",
+      "img": "",
+      "highlight": [
+        "Git",
+        "GitHub",
+        "Blogging"
+      ]
+    },
+    {
+      "name": "Media Player",
+      "isActive": true,
+      "description": "Media player en platzi con javascript - Curso profesional de javascript",
+      "url": "https://github.com/dtoro-dev/media-player",
+      "img": "",
+      "highlight": [
+        "JavaScript",
+        "Media Player",
+        "Platzi"
+      ]
+    },
+    {
+      "name": "Minimalist Portfolio",
+      "isActive": true,
+      "description": "Portafolio minimalista creado con Astro",
+      "url": "https://github.com/dtoro-dev/minimalist-portfolio",
+      "img": "",
+      "highlight": [
+        "Astro",
+        "Portfolio",
+        "Minimalist Design"
+      ]
+    },
+    {
+      "name": "Curso Javascript",
+      "isActive": true,
+      "description": "Platzi Curso Practico Javascript",
+      "url": "https://github.com/dtoro-dev/platzi-curso-practico-javascript",
+      "img": "",
+      "highlight": [
+        "JavaScript",
+        "Platzi"
+      ]
+    },
+    {
+      "name": "premios-esland-clone",
+      "isActive": false,
+      "description": "Web clon similar a la página oficial de los premios esland dedicado a algunos informáticos de Europa",
+      "url": "https://github.com/dtoro-dev/premios-esland-clone",
+      "img": "",
+      "highlight": [
+        "Astro",
+        "Clone",
+        "Awards"
+      ]
+    },
+    {
+      "name": "RayenSalud",
+      "isActive": false,
+      "description": "Desafío de postulación",
+      "url": "https://github.com/dtoro-dev/RayenSalud",
+      "img": "",
+      "highlight": [
+        "JavaScript",
+        "Application",
+        "Challenge"
+      ]
+    },
+    {
+      "name": "Search Platzi",
+      "isActive": true,
+      "description": "Resultado de Curso practico en platzi en donde se debia copiar la pagina de google, para no crear el mismo, lo adapte a un buscador de Platzi.",
+      "url": "https://github.com/dtoro-dev/SearchPlatzi",
+      "img": "",
+      "highlight": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Platzi"
+      ]
+    },
+    {
+      "name": "tasknest",
+      "isActive": false,
+      "description": null,
+      "url": "https://github.com/dtoro-dev/tasknest",
+      "img": "",
+      "highlight": [
+        "TypeScript",
+        "Task Management"
+      ]
+    }
+  ]
 }
