@@ -54,6 +54,8 @@
 
 </div>
 
+<img src="./src/assets/screen-front.png">
+
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/) - El framework web de la nueva época.
