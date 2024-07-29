@@ -1,78 +1,57 @@
 ---
 import Section from "@/components/Section.astro";
+import { truncateText } from "@/utils/format";
 import { projects } from "@cv";
 ---
 
-<Section title="Projects">
-  <ul>
-    {
-      projects.map(({ isActive, name, url, description, highlight }) => {
-        if (!isActive) return;
-        return (
-          <li>
-            <article>
-              <header>
-                <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
-                  <h3 class="font-bold">{name}</h3>
-                </a>
-                <p
-                  class="text-sm text-ellipsis text-nowrap overflow-hidden h-[60px]"
-                >
-                  {description}
-                </p>
-              </header>
+<div class="no-print">
+  <Section title="Proyectos">
+    <div class="my-4">
+      <ul class="flex flex-wrap gap-1 justify-center">
+        {
+          projects.map(({ isActive, name, url, description, highlight }) => {
+            if (!isActive) return;
+            return (
+              <li>
+                <article class="rounded-lg border bg-[#f8f8f8] gap-2 flex flex-col p-4 h-[234px] w-[220px]">
+                  <header class="flex-1">
+                    <a
+                      href={url}
+                      target="_blank"
+                      title={`Ver el proyecto ${name}`}
+                    >
+                      <h3 class="font-bold mb-1 flex justify-between">
+                        <span>{name}</span> <span>🔗</span>
+                      </h3>
+                    </a>
+                    <p class="text-sm text-wrap">{truncateText(description)}</p>
+                  </header>
 
-              <footer>
-                {highlight.map((item) => (
-                  <span class="text-sm">{item}</span>
-                ))}
-              </footer>
-            </article>
-          </li>
-        );
-      })
-    }
-  </ul>
-</Section>
+                  <footer class="flex flex-wrap gap-1 text-xs">
+                    {highlight.map((item) => (
+                      <span class="px-[0.4rem] py-[0.1rem] rounded-md font-xs font-medium inline-flex text-[#fff] bg-[#444]">
+                        {item}
+                      </span>
+                    ))}
+                  </footer>
+                </article>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+  </Section>
+</div>
 
 <style>
-  ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
-    padding: 8px;
-  }
+  @media print {
+    .print {
+      display: block;
+    }
 
-  article {
-    border-radius: 8px;
-    border: 1px solid #f2f2f2;
-    background-color: #fffefe;
-    gap: 8px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    height: 100%;
-    width: 250px;
-  }
-
-  article header {
-    flex: 1;
-  }
-
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    font-size: 0.6rem;
-  }
-
-  footer span {
-    border-radius: 6px;
-    background: #444;
-    color: #eee;
-    font-size: 0.6rem;
-    font-weight: 500;
-    padding: 0.01rem 0.4rem;
-    display: inline-flex;
+    .no-print {
+      display: none;
+    }
   }
 </style>

@@ -15,8 +15,12 @@ const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
   LinkedIn,
   GitHub,
-  X
+  X,
 };
+
+const linkdedInfo = profiles.find(({ network }) => network === "LinkedIn");
+
+const printInfo = [email, phone, linkdedInfo?.url].filter(Boolean).join(" · ");
 ---
 
 <Section>
@@ -28,7 +32,10 @@ const SOCIAL_ICONS: Record<string, any> = {
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="flex gap-4 mt-2">
+      <div class="print">
+        {printInfo}
+      </div>
+      <footer class="flex gap-4 mt-2 no-print">
         {
           email && (
             <a
@@ -65,13 +72,17 @@ const SOCIAL_ICONS: Record<string, any> = {
               >
                 <Icon />
               </a>
-            )
+            );
           })
         }
       </footer>
     </div>
     <figure>
-      <img class="aspect-square object-cover w-[150px] rounded-md" src={image} alt={name} />
+      <img
+        class="aspect-square object-cover w-[150px] rounded-md"
+        src={image}
+        alt={name}
+      />
     </figure>
   </div>
 </Section>
@@ -79,7 +90,7 @@ const SOCIAL_ICONS: Record<string, any> = {
 <style>
   footer a {
     color: #777;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -94,5 +105,19 @@ const SOCIAL_ICONS: Record<string, any> = {
     color: #4d4d4d;
     background-color: #eee;
     border: 1px solid #ddd;
+  }
+
+  .print {
+    display: none;
+  }
+
+  @media print {
+    .print {
+      display: block;
+    }
+
+    .no-print {
+      display: none;
+    }
   }
 </style>
