@@ -1,0 +1,213 @@
+{
+  "basics": {
+    "name": "Diego Toro Reyes",
+    "label": "Full Stack Developer con más de 8 años de experiencia en desarrollo de aplicaciones",
+    "image": "https://media.licdn.com/dms/image/D4E03AQE1NM880ucpEQ/profile-displayphoto-shrink_800_800/0/1680133088372?e=1727308800&v=beta&t=Xb8PBWS1eZFkTJrxCHjx_kwYGNQFifon7NNpnKAddeA",
+    "email": "dtoro.a.s@gmail.com",
+    "phone": "(+56) 9 6602 0227",
+    "url": "https://portfolio-dtoro.vercel.app",
+    "summary": "Titulado como Analista de Sistemas, soy un desarrollador Full Stack con más de 8 años de experiencia en el desarrollo de aplicaciones web. He cultivado un pensamiento crítico y analítico, fundamental para mi crecimiento profesional. Me considero una persona proactiva, siempre buscando innovar para mejorar mis habilidades en el ámbito laboral. Soy responsable y comprometido, con un excelente manejo de servicios computacionales. Estoy disponible para aceptar nuevos desafíos y contribuir de la mejor manera posible en el área laboral.",
+    "location": {
+      "address": "Pje. Safo #2653",
+      "postalCode": "9274019",
+      "city": "Santiago",
+      "countryCode": "CL",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Diego Toro Reyes",
+        "url": "www.linkedin.com/in/diego-toro-reyes-7145ba136"
+      },
+      {
+        "network": "GitHub",
+        "username": "dtoro-dev",
+        "url": "https://github.com/dtoro-dev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SOCIUS",
+      "position": "Líder Técnico / Desarrollador Fullstack",
+      "url": "https://company.com",
+      "startDate": "2023-11",
+      "endDate": "2024-07",
+      "summary": "Como Desarrollador Full Stack en Socius, participé en la migración del producto PLARD en Banco Santander, gestionando el proyecto desde la fase inicial hasta los despliegues en desarrollo, QA y producción con React y Vite.js. También lideré proyectos para Metlife, incluyendo Genexus, Multiproducto y Banco Estado, migrando el frontend a React y Material UI, y desarrollando el backend en .NET Core con C#. Impartí capacitaciones en React y Redux-Toolkit para el equipo de frontend, asegurando una integración eficiente de los endpoints y liderando al equipo en el proyecto Multiproducto para garantizar la calidad y el cumplimiento de los plazos.",
+      "highlights": [
+        "Migración de producto PLARD en Banco Santander",
+        "Liderazgo en proyectos para Metlife, Genexus, Multiproducto y Banco Estado",
+        "Capacitaciones al equipo frontend sobre React y Redux-Toolkit"
+      ],
+      "reference": {
+        "name": "Alexia Vetere",
+        "title": "Líder Célula",
+        "phone": "+34623943355"
+      }
+    },
+    {
+      "name": "SOAINT S.A.",
+      "position": "Consultor Técnico",
+      "url": "https://company.com",
+      "startDate": "2021-08",
+      "endDate": "2023-09",
+      "summary": "Durante mi extensa trayectoria en SOAINT S.A., ocupando el cargo de Consultor Técnico, participé en múltiples proyectos con diversos clientes de la consultora, incluyendo Oracle, Principal Financial Group, Walmart y Coopeuch. Además, contribuí al desarrollo y expansión de un sistema de gestión que evolucionó desde el control de accesos durante la pandemia hacia una aplicación versátil con módulos, roles, gestión de usuarios, y características específicas para el control de aforo y temperaturas en modo pandémico. También desempeñé roles en el desarrollo frontend de aplicaciones móviles utilizando React.js y React Native, así como en el backend con Java y Node.js, trabajando en la nube de Amazon.",
+      "highlights": [
+        "Desarrollo y expansión de un sistema de gestión",
+        "Desarrollo frontend de aplicaciones móviles usando React.js y React Native",
+        "Trabajo en el backend con Java y Node.js"
+      ],
+      "reference": {
+        "name": "Mauricio Ponce",
+        "title": "1er Service Manager",
+        "phone": "+56 9 7763 0284"
+      }
+    },
+    {
+      "name": "FABRIMETAL S.A.",
+      "position": "Ingeniero en Desarrollo Full-Stack",
+      "url": "https://company.com",
+      "startDate": "2019-10",
+      "endDate": "2021-08",
+      "summary": "Como Ingeniero en Desarrollo Full Stack en Fabrimetal, desarrollé módulos y mejoras para las plataformas internas, incluyendo Pandora, un sistema que mejoró la seguridad y el control de información. También brindé soporte a usuarios, impartí capacitaciones, creé manuales digitales y gestioné redes. Colaboré en la migración hacia Pandora y en la implementación de una plataforma de aplicaciones centralizada. Durante la cuarentena, establecimos el teletrabajo y gestioné una bitácora laboral para el seguimiento de actividades, asumiendo tareas de control como controller.",
+      "highlights": [
+        "Creación del sistema Pandora",
+        "Implementación de una plataforma de aplicaciones centralizada",
+        "Establecimiento de teletrabajo durante la cuarentena"
+      ],
+      "reference": {}
+    },
+    {
+      "name": "CONFITES COOKIEMAN Ltda.",
+      "position": "Analista de Sistemas",
+      "url": "https://company.com",
+      "startDate": "2017-06",
+      "endDate": "2019-09",
+      "summary": "Me desempeñé en el área de sistemas desarrollando y modificando módulos de compra, venta, contabilidad, bodega, inventario y despacho en el ERP FrontAccounting. Implementé conocimientos sobre el prototipo de facturación del SII y generé procedimientos almacenados en PL/SQL para optimizar las órdenes de compra. Todo esto fue desarrollado en un entorno de prueba, preparando la migración desde un sistema COBOL a un ERP moderno para los locales de la empresa (TIP-TOP / GELATO'S). Además, realicé capacitaciones presenciales y asistí a los usuarios, analizando posibles mejoras en el rendimiento de los módulos.",
+      "highlights": [
+        "Desarrollo de módulos para ERP FrountAccounting",
+        "Capacitaciones presenciales al personal",
+        "Migración del sistema basado en COBOL"
+      ],
+      "reference": {
+        "name": "Michael Martínez",
+        "title": "Jefe de Proyecto",
+        "phone": "+56 9 4259 4251"
+      }
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "ICEL",
+      "url": "https://icel.cl",
+      "area": "Análisis de Sistemas",
+      "studyType": "Técnico",
+      "startDate": "2015-04",
+      "endDate": "2016-12"
+    },
+    {
+      "institution": "Universidad San Sebastián",
+      "url": "https://uss.cl",
+      "area": "Tecnologías de la Información y Comunicaciones",
+      "studyType": "Ingeniería",
+      "startDate": "2017-10",
+      "endDate": "2019-10"
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Lifelong Learning",
+      "organization": "CertiProf",
+      "issuer": "Esta insignia se ha otorgado a los candidatos que han demostrado su compromiso inquebrantable con el aprendizaje permanente, que es de vital importancia en el mundo digital en constante cambio y expansión actual. También identifica las cualidades de una mente abierta, disciplinada y en constante evolución, capaz de utilizar y aportar conocimientos para desarrollar un mundo mejor y más igualitario.",
+      "url": "https://www.credly.com/badges/dd173296-0598-428e-a792-9ac5237c610f/public_url",
+      "img": "https://images.credly.com/images/f5cf37e4-6ebd-4067-96a9-b26d04f51ff7/CertiProf-Badge-LLL.png"
+    },
+    {
+      "name": "AWS Partner: Technical Accredited",
+      "organization": "AWS",
+      "issuer": "Los ganadores de esta insignia son socios de AWS que han desarrollado conocimientos técnicos fundamentales sobre la computación en la nube de AWS, la infraestructura global, los servicios, las soluciones, la migración y la seguridad.",
+      "url": "https://www.credly.com/badges/30ed1769-cbe6-472b-a070-d80359c8c78f/public_url",
+      "img": "https://images.credly.com/images/a253b994-caa6-4dd1-bf0e-434dd012b1f6/image.png"
+    },
+    {
+      "name": "AWS Partner: Sales Accreditation",
+      "organization": "AWS",
+      "issuer": "Los ganadores de esta nueva insignia son los socios de AWS que han demostrado un conocimiento fundamental del valor comercial de la nube, cómo superar las objeciones comunes de los clientes y cómo realizar ventas conjuntas con AWS.",
+      "url": "https://www.credly.com/badges/98a5ab36-7d80-4db6-8c4c-86698f63c636/public_url",
+      "img": "https://images.credly.com/images/87df3ac8-1afb-4bdc-80ee-bef9f8cb65d6/image.png"
+    },
+    {
+      "name": "AWS Partner: Cloud Economics Essentials",
+      "organization": "AWS",
+      "issuer": "Los ganadores de esta insignia son socios de AWS que han demostrado conocimiento sobre ahorro de costos y economía de centros de datos en relación con la computación en la nube.",
+      "url": "https://www.credly.com/badges/7a63f481-8f76-4c5a-9764-6ced763bfcc2/public_url",
+      "img": "https://images.credly.com/images/9dc6345e-db80-44de-bb44-0c78775e53fa/image.png"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Desarrollo Web",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "Node JS",
+        "React JS",
+        "React Native",
+        "Nest JS",
+        "Angular JS",
+        "PHP",
+        "Java",
+        "Python",
+        "CSS",
+        "SQL",
+        "JQUERY",
+        ".NET",
+        "Microservicios",
+        "AWS",
+        "Linux Prompt",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Tecnología",
+      "keywords": [
+        "Innovación",
+        "Desarrollo de software",
+        "Aprendizaje de nuevas tecnologías"
+      ]
+    },
+    {
+      "name": "Game Maker",
+      "keywords": [
+        "Gaming",
+        "Desarrollo de videojuegos",
+        "Aprendizaje de nuevas tecnologías",
+        "Godot Engine",
+        "Physer",
+        "Gamer"
+      ]
+    },
+    {
+      "name": "Pixel Art",
+      "keywords": [
+        "Diseño",
+        "Arte",
+        "Asprite"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": []
+}
