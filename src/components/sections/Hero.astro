@@ -1,0 +1,98 @@
+---
+import { basics } from "@cv";
+import Section from "@/components/Section.astro";
+import Typography from "@/components/Typography";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import X from "@/icons/X.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+
+const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  LinkedIn,
+  GitHub,
+  X
+};
+---
+
+<Section>
+  <div class="flex flex-row items-center justify-between gap-4">
+    <div class="flex flex-col gap-2">
+      <Typography variant="h1">{name}</Typography>
+      <Typography variant="h2">{label}</Typography>
+      <span class="flex gap-2 items-center text-sm tracking-tighter">
+        <WorldMap />
+        {city}, {region}
+      </span>
+      <footer class="flex gap-4 mt-2">
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Mail />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a
+              href={`tel:${phone}`}
+              title={`Llamar por telefono a ${name} al número ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+            return (
+              <a
+                href={url}
+                title={`Visitar el perfil de ${username} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon />
+              </a>
+            )
+          })
+        }
+      </footer>
+    </div>
+    <figure>
+      <img class="aspect-square object-cover w-[150px] rounded-md" src={image} alt={name} />
+    </figure>
+  </div>
+</Section>
+
+<style>
+  footer a {
+    color: #777;
+    transition: all .3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+  }
+
+  footer a:hover {
+    color: #4d4d4d;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+</style>

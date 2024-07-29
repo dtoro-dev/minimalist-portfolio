@@ -1,0 +1,82 @@
+---
+import Section from "@/components/Section.astro";
+import { work } from "@cv";
+import moment from "moment";
+import Typography from "../Typography";
+import { formatPhoneNumberIntl } from "react-phone-number-input";
+import Phone from "@/icons/Phone.astro";
+
+moment.locale("es");
+
+const formatDate = (date: string) => moment(date).format("MMMM YYYY");
+---
+
+<Section title="Experience">
+  <ul class="p-2 flex flex-col gap-4">
+    {
+      work.map(({ position, name, startDate, endDate, summary, reference }) => (
+        <li>
+          <article>
+            <header>
+              <time class="flex justify-between">
+                <Typography variant="h2">{name}</Typography>
+                <Typography variant="h2">
+                  {formatDate(startDate)} / {formatDate(endDate)}
+                </Typography>
+              </time>
+            </header>
+
+            <Typography variant="h2">{position}</Typography>
+            <p class="text-[#666] line-height m-0 text-justify text-wrap p-2">
+              {summary}
+            </p>
+
+            <footer>
+              {reference?.name && (
+                <div class="flex gap-4 ml-2 items-center">
+                  <p class="line-height m-0 font-semibold text-justify text-wrap">
+                    Referencia
+                  </p>
+                  <p>{reference.name}</p>
+                  <p>
+                    {reference.phone && (
+                      <a
+                        href={`tel:${formatPhoneNumberIntl(reference.phone)}`}
+                        title={`Llamar por telefono a ${reference.name} al número ${reference.phone}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Phone />
+                      </a>
+                    )}
+                  </p>
+                </div>
+              )}
+            </footer>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  footer a {
+    color: #777;
+    transition: all .3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+  }
+  
+  footer a:hover {
+    color: #4d4d4d;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+</style>
