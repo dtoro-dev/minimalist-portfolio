@@ -1,7 +1,35 @@
 ---
 import Section from "@/components/Section.astro";
+import { education } from "@cv";
+import Typography from "../Typography";
+import { formatDate } from "@/utils/format";
 ---
 
 <Section title="Education">
-  
+  <ul class="p-2 flex flex-col gap-4">
+    {
+      education.map(({ institution, area, studyType, startDate, endDate, url }) => (
+        <li>
+          <article>
+            <header>
+              <time class="flex justify-between">
+                <Typography variant="h2">
+                  <a href={url} target="_blank" title={institution}>
+                    {institution}
+                  </a>
+                </Typography>
+                <Typography variant="h2">
+                  {formatDate(startDate)}
+                </Typography>
+              </time>
+              <span>{studyType} {area}</span>
+            </header>
+            <footer>
+
+            </footer>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
 </Section>

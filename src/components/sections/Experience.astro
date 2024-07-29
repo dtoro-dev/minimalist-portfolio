@@ -1,14 +1,11 @@
 ---
 import Section from "@/components/Section.astro";
 import { work } from "@cv";
-import moment from "moment";
 import Typography from "../Typography";
 import { formatPhoneNumberIntl } from "react-phone-number-input";
 import Phone from "@/icons/Phone.astro";
+import { formatDate } from "@/utils/format";
 
-moment.locale("es");
-
-const formatDate = (date: string) => moment(date).format("MMMM YYYY");
 ---
 
 <Section title="Experience">
@@ -38,6 +35,9 @@ const formatDate = (date: string) => moment(date).format("MMMM YYYY");
                     Referencia
                   </p>
                   <p>{reference.name}</p>
+                  <strong class="text-xl">·</strong>
+                  <p>{reference.title}</p>
+                  <strong class="text-xl">·</strong>
                   <p>
                     {reference.phone && (
                       <a
@@ -73,7 +73,7 @@ const formatDate = (date: string) => moment(date).format("MMMM YYYY");
     width: 32px;
     border-radius: 6px;
   }
-  
+
   footer a:hover {
     color: #4d4d4d;
     background-color: #eee;

@@ -1,7 +1,78 @@
 ---
 import Section from "@/components/Section.astro";
+import { projects } from "@cv";
 ---
 
 <Section title="Projects">
-  
+  <ul>
+    {
+      projects.map(({ isActive, name, url, description, highlight }) => {
+        if (!isActive) return;
+        return (
+          <li>
+            <article>
+              <header>
+                <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                  <h3 class="font-bold">{name}</h3>
+                </a>
+                <p
+                  class="text-sm text-ellipsis text-nowrap overflow-hidden h-[60px]"
+                >
+                  {description}
+                </p>
+              </header>
+
+              <footer>
+                {highlight.map((item) => (
+                  <span class="text-sm">{item}</span>
+                ))}
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 8px;
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    background-color: #fffefe;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+    width: 250px;
+  }
+
+  article header {
+    flex: 1;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #444;
+    color: #eee;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.01rem 0.4rem;
+    display: inline-flex;
+  }
+</style>
