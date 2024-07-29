@@ -18,7 +18,7 @@
       {
         "network": "LinkedIn",
         "username": "Diego Toro Reyes",
-        "url": "www.linkedin.com/in/diego-toro-reyes-7145ba136"
+        "url": "https://www.linkedin.com/in/diego-toro-reyes-7145ba136"
       },
       {
         "network": "GitHub",
@@ -353,7 +353,7 @@
     {
       "name": "Translator Cohere IA",
       "isActive": true,
-      "description": "Traductor que utiliza la API de Cohere IA para lograr traducciones sin necesidad de un diccionario",
+      "description": "Traductor que utiliza la API de Cohere IA para lograr traducciones sin necesidad de un diccionario.",
       "url": "https://github.com/dtoro-dev/translator-cohere-ia",
       "img": "",
       "highlight": [
@@ -366,7 +366,7 @@
     {
       "name": "Chat Node Socket.IO",
       "isActive": true,
-      "description": "Chat creado con node y socket.io",
+      "description": "Chat creado con node y socket.io.",
       "url": "https://github.com/dtoro-dev/chat-node-socketio",
       "img": "",
       "highlight": [
@@ -378,7 +378,7 @@
     {
       "name": "The Adventure",
       "isActive": true,
-      "description": "Juego creado con Godot 4",
+      "description": "Juego tipo runner creado con Godot 4.",
       "url": "https://github.com/dtoro-dev/the_adventure",
       "img": "",
       "highlight": [
@@ -391,7 +391,7 @@
     {
       "name": "Tetris",
       "isActive": true,
-      "description": "Juego del clásico tetris creado con React y TypeScript",
+      "description": "Juego del clásico tetris creado con React y TypeScript.",
       "url": "https://github.com/dtoro-dev/tetris",
       "img": "",
       "highlight": [
@@ -429,7 +429,7 @@
     {
       "name": "Portfolio DToroDev front",
       "isActive": true,
-      "description": "Primer portafolio personal con material ui y react",
+      "description": "Primer portafolio personal con material ui y react.",
       "url": "https://github.com/dtoro-dev/portfolio-dtoro-front",
       "img": "",
       "highlight": [
@@ -455,7 +455,7 @@
     {
       "name": "JS 100",
       "isActive": true,
-      "description": "Curso con Midudev - 100 proyectos de JavaScript",
+      "description": "Curso con Midudev - 100 proyectos de JavaScript.",
       "url": "https://github.com/dtoro-dev/js-100",
       "img": "",
       "highlight": [
@@ -467,7 +467,7 @@
     {
       "name": "Async Landing Airsoft",
       "isActive": true,
-      "description": "Pagina landing de aisoft realizada en un curso de Platzi",
+      "description": "Pagina landing de aisoft realizada en un curso de Platzi.",
       "url": "https://github.com/dtoro-dev/async-landing-airsoft",
       "img": "",
       "highlight": [
@@ -479,7 +479,7 @@
     {
       "name": "Hyperblog",
       "isActive": true,
-      "description": "Un blog increible para el curso Git y Github de Platzi",
+      "description": "Un blog increible para el curso Git y Github de Platzi.",
       "url": "https://github.com/dtoro-dev/hyperblog",
       "img": "",
       "highlight": [
@@ -491,7 +491,7 @@
     {
       "name": "Media Player",
       "isActive": true,
-      "description": "Media player en platzi con javascript - Curso profesional de javascript",
+      "description": "Media player en platzi con javascript - Curso profesional de javascript.",
       "url": "https://github.com/dtoro-dev/media-player",
       "img": "",
       "highlight": [
@@ -503,7 +503,7 @@
     {
       "name": "Minimalist Portfolio",
       "isActive": true,
-      "description": "Portafolio minimalista creado con Astro",
+      "description": "Portafolio minimalista creado con Astro.",
       "url": "https://github.com/dtoro-dev/minimalist-portfolio",
       "img": "",
       "highlight": [
@@ -515,36 +515,12 @@
     {
       "name": "Curso Javascript",
       "isActive": true,
-      "description": "Platzi Curso Practico Javascript",
+      "description": "Platzi Curso Practico Javascript.",
       "url": "https://github.com/dtoro-dev/platzi-curso-practico-javascript",
       "img": "",
       "highlight": [
         "JavaScript",
         "Platzi"
-      ]
-    },
-    {
-      "name": "premios-esland-clone",
-      "isActive": false,
-      "description": "Web clon similar a la página oficial de los premios esland dedicado a algunos informáticos de Europa",
-      "url": "https://github.com/dtoro-dev/premios-esland-clone",
-      "img": "",
-      "highlight": [
-        "Astro",
-        "Clone",
-        "Awards"
-      ]
-    },
-    {
-      "name": "RayenSalud",
-      "isActive": false,
-      "description": "Desafío de postulación",
-      "url": "https://github.com/dtoro-dev/RayenSalud",
-      "img": "",
-      "highlight": [
-        "JavaScript",
-        "Application",
-        "Challenge"
       ]
     },
     {
@@ -558,6 +534,30 @@
         "HTML",
         "JavaScript",
         "Platzi"
+      ]
+    },
+    {
+      "name": "premios-esland-clone",
+      "isActive": false,
+      "description": "Web clon similar a la página oficial de los premios esland dedicado a algunos informáticos de Europa.",
+      "url": "https://github.com/dtoro-dev/premios-esland-clone",
+      "img": "",
+      "highlight": [
+        "Astro",
+        "Clone",
+        "Awards"
+      ]
+    },
+    {
+      "name": "RayenSalud",
+      "isActive": false,
+      "description": "Desafío de postulación.",
+      "url": "https://github.com/dtoro-dev/RayenSalud",
+      "img": "",
+      "highlight": [
+        "JavaScript",
+        "Application",
+        "Challenge"
       ]
     },
     {

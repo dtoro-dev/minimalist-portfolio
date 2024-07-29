@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="./src/assets/logo-2.webp" height="90px" width="auto" style="background-color: #f2f1eb; border-radius: 10px; border: 3px solid #e8c538" /> 
+  <img src="./src/assets/logo-2.2.webp" height="90px" width="auto" style="background-color: #f2f1eb; border-radius: 10px; border: 3px solid #e8c538" /> 
   <h2>
     <em>Résumé</em> minimalista maquetado para web y pdf
   </h2>

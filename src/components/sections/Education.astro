@@ -5,31 +5,32 @@ import Typography from "../Typography";
 import { formatDate } from "@/utils/format";
 ---
 
-<Section title="Education">
+<Section title="Educación">
   <ul class="p-2 flex flex-col gap-4">
     {
-      education.map(({ institution, area, studyType, startDate, endDate, url }) => (
-        <li>
-          <article>
-            <header>
-              <time class="flex justify-between">
-                <Typography variant="h2">
-                  <a href={url} target="_blank" title={institution}>
-                    {institution}
-                  </a>
-                </Typography>
-                <Typography variant="h2">
-                  {formatDate(startDate)}
-                </Typography>
-              </time>
-              <span>{studyType} {area}</span>
-            </header>
-            <footer>
-
-            </footer>
-          </article>
-        </li>
-      ))
+      education.map(
+        ({ institution, area, studyType, startDate, endDate, url }) => (
+          <li>
+            <article>
+              <header>
+                <time class="flex justify-between">
+                  <Typography variant="h2">
+                    <a href={url} target="_blank" title={institution}>
+                      {institution}
+                    </a>
+                  </Typography>
+                  <Typography variant="h2">{formatDate(endDate)}</Typography>
+                </time>
+              </header>
+              <footer>
+                <span>
+                  {studyType} {area}
+                </span>
+              </footer>
+            </article>
+          </li>
+        )
+      )
     }
   </ul>
 </Section>

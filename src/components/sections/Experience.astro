@@ -5,10 +5,9 @@ import Typography from "../Typography";
 import { formatPhoneNumberIntl } from "react-phone-number-input";
 import Phone from "@/icons/Phone.astro";
 import { formatDate } from "@/utils/format";
-
 ---
 
-<Section title="Experience">
+<Section title="Experiencia Laboral">
   <ul class="p-2 flex flex-col gap-4">
     {
       work.map(({ position, name, startDate, endDate, summary, reference }) => (
@@ -24,7 +23,7 @@ import { formatDate } from "@/utils/format";
             </header>
 
             <Typography variant="h2">{position}</Typography>
-            <p class="text-[#666] line-height m-0 text-justify text-wrap p-2">
+            <p class="text-[#666] line-height m-0 text-justify text-wrap px-2 py-5">
               {summary}
             </p>
 
@@ -38,7 +37,12 @@ import { formatDate } from "@/utils/format";
                   <strong class="text-xl">·</strong>
                   <p>{reference.title}</p>
                   <strong class="text-xl">·</strong>
-                  <p>
+                  {reference.phone && (
+                    <p class="print">
+                      {formatPhoneNumberIntl(reference.phone)}
+                    </p>
+                  )}
+                  <p class="no-print">
                     {reference.phone && (
                       <a
                         href={`tel:${formatPhoneNumberIntl(reference.phone)}`}
@@ -63,7 +67,7 @@ import { formatDate } from "@/utils/format";
 <style>
   footer a {
     color: #777;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -78,5 +82,19 @@ import { formatDate } from "@/utils/format";
     color: #4d4d4d;
     background-color: #eee;
     border: 1px solid #ddd;
+  }
+
+  .print {
+    display: none;
+  }
+
+  @media print {
+    .print {
+      display: block;
+    }
+
+    .no-print {
+      display: none;
+    }
   }
 </style>
