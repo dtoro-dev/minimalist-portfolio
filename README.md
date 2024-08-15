@@ -31,8 +31,8 @@
         Licencia
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="https://midu.dev">
-        Personal
+    <a href="https://dtoro-dev-portfolio.netlify.app/">
+        Personal DToroDev - Portfolio Minimalist
     </a>
   </div>
 </div>
