@@ -351,6 +351,22 @@
   "references": [],
   "projects": [
     {
+      "name": "Task Manager",
+      "isActive": true,
+      "description": "Aplicación diseñada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. La aplicación ofrece un Dashboard central donde se resumen todas las tareas según su estado: pendientes, en proceso, finalizadas y vencidas. Además, permite acceder a una vista detallada de las tareas individuales, donde los usuarios pueden ver, editar y actualizar el estado de cada tarea.",
+      "url": "https://github.com/dtoro-dev/tasks-manager",
+      "img": "",
+      "highlight": [
+        "Angular",
+        "TailwindCSS",
+        "TypeScript",
+        "Node",
+        "Prisma",
+        "Express",
+        "SQLite"
+      ]
+    },
+    {
       "name": "Translator Cohere IA",
       "isActive": true,
       "description": "Traductor que utiliza la API de Cohere IA para lograr traducciones sin necesidad de un diccionario.",
