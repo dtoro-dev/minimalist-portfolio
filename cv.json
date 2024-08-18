@@ -350,6 +350,46 @@
   ],
   "references": [],
   "projects": [
+    
+    {
+      "name": "BullJS CLI (GitHub)",
+      "isActive": true,
+      "description": "BullJS CLI es una herramienta de línea de comandos diseñada para inicializar proyectos backend basados en el repositorio bullwork. Con BullJS CLI, puedes crear nuevos proyectos rápidamente y comenzar a desarrollar en minutos. Lo puedes encontrar en npm bulljs-cli.",
+      "url": "https://github.com/dtoro-dev/bulljs-cli",
+      "img": "",
+      "highlight": [
+        "Node",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Bullwork Framework",
+      "isActive": true,
+      "description": "Bullwork es un framework ligero para backend basado en Node.js, Express, y TypeScript. Está diseñado para ofrecer una estructura sólida y escalable para aplicaciones web modernas, y se integra perfectamente con herramientas como Prisma y SQLite para la gestión de bases de datos.",
+      "url": "https://github.com/dtoro-dev/bullwork",
+      "img": "",
+      "highlight": [
+        "TypeScript",
+        "Node",
+        "Prisma",
+        "Express",
+        "SQLite",
+        "Swagger"
+      ]
+    },
+    {
+      "name": "BullJS CLI (NPM)",
+      "isActive": true,
+      "description": "BullJS CLI es una herramienta de línea de comandos diseñada para inicializar proyectos backend basados en el repositorio bullwork. Con BullJS CLI, puedes crear nuevos proyectos rápidamente y comenzar a desarrollar en minutos.",
+      "url": "https://www.npmjs.com/package/bulljs-cli",
+      "img": "",
+      "highlight": [
+        "Javascript",
+        "TypeScript",
+        "Node",
+        "NPM"
+      ]
+    },
     {
       "name": "Task Manager",
       "isActive": true,
